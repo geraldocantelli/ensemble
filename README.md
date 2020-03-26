@@ -5,6 +5,7 @@ All implemented in Perl language with BioPerl support.
 Before execute the scripts, run:
 
    cpan install Venn::Chart
+  
    cpan install Bio::SeqIO
 
 Use the scripts called annex2.pl and annex3.pl to make the inventory of the genes resulted of each pipeline, as follows:
@@ -25,12 +26,17 @@ Now you have the inventory gene file of each sofware, rename them properly in or
 The ensemble script generates a Venn diagram with labels given by the names of software of the parameters and also five reports in file format:
 
    reportSW1.txt:     information about the genes present in the pipeline of software 1
+  
    reportSW2.txt:     information about the genes present in the pipeline of software 2
+  
    reportonlySW1.txt: information about the genes present exclusively in the pipeline of software 1
+   
    reportonlySW2.txt: information about the genes present exclusively in the pipeline of software 2
+   
    intersec.txt:      information about the genes present in the intersection set of the pipelines
 
 The two diagrams generated are called:
 
    VennChart.png
+   
    VennHistogram.png
