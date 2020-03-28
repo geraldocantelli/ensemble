@@ -115,9 +115,6 @@ print "(Only Software 2) Genes File created.\n";
 close ($omp);
 
 ######################################################################
-#Criação do diagrama de Venn
-
-
 # Create the Venn::Chart constructor
 my $venn_chart = Venn::Chart->new( 550, 550 ) or die("error : $!");
  
